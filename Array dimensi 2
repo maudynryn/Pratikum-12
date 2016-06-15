@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int Angka [2][2];
+    int baris;
+    int kolom;
+
+    for (baris=0; baris<=2; baris++){
+        for(kolom=0; kolom<=2; kolom++){
+
+        cout<<"ANGKA["<<baris <<"] ["<<kolom <<"] = ";
+        cin>>Angka[baris][kolom];
+        }
+    }
+    cout<<"Nilai Array yang ditampilkan : "<<Angka[0][1];
+    return 0;
+}
